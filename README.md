@@ -20,8 +20,8 @@ Before running the application, ensure you have the following installed and conf
 | :--- | :--- | :--- |
 | Search (Data Acquisition) | `http://localhost:5678/webhook/ai-business-lookup` | Returns initial business search data. |
 | Update (Data Persistence) | `http://localhost:5678/webhook/Sheet_management` | Receives individual records for batch saving/database updates. |
-| Email Generation | `http://localhost:5678/webhook-test/email_writting` | Generates a preview list of emails based on a template. |
-| Email Send (Final Action) | `http://localhost:5678/webhook-test/email_management` | Executes the final batch sending/logging of each individual email. |
+| Email Generation | `http://localhost:5678/webhook/email_writting` | Generates a preview list of emails based on a template. |
+| Email Send (Final Action) | `http://localhost:5678/webhook/email_management` | Executes the final batch sending/logging of each individual email. |
 
 ## 🚀 Getting Started
 
